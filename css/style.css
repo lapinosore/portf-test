@@ -1,0 +1,130 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.YTshadow{
+	background-color: white;
+	position: absolute;
+	margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+	height: 100%;
+	opacity: 1;
+}
+.header-wrapper{
+	font-family: 'Josefin Sans', sans-serif;
+    /*position: fixed;   
+    left: 0; top: 0; right: 0;   */
+    background: black;
+    text-align: right;
+    width: 100%;
+    z-index: 101;
+}
+.header-wrapper>b{
+	font-size: 50px;
+	text-decoration: none;
+	color: white;
+	margin: auto;
+    font-weight: normal;
+}
+
+.footer-wrapper{
+	font-family: 'Josefin Sans', sans-serif;
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; right: 0; /* Левый нижний угол */
+    background: black;
+    text-align: left;
+    width: 100%; /* Ширина слоя */
+    z-index: 102;
+}
+.footer-wrapper>a{
+	font-size: 50px;
+	text-decoration: none;
+	color: white;
+}
+.main-wrapper{
+	text-align: center;
+	height: 90%;
+    opacity: 1;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.main-wrapper>img{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+.logo-wrapper{
+    margin: auto;
+    width: 300px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-left: -170px;
+    background-color: rgba(0,0,0,0.6);
+    padding: 20px;
+}
+.logo-content{
+    background-color: rgba(255, 225, 2, 0.8);
+    width: 70%;
+    height: 80px;
+    float: right;
+    vertical-align: middle;
+}
+.logo-content-text{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: left;
+    display: inline-block;
+    margin-top: 13px;
+}
+.logo-image{
+    float: left;
+    width: 30%;
+    height: 80px;
+    text-align: center;
+    background-color: white;
+}
+.start-button-wrapper{
+    position: absolute;
+    top: 40%;
+    margin-top: -35px;
+    left: 50%;
+    margin-left: -60px;
+}
+.start-button{
+    border: 1px black solid;
+    background-color: rgba(1,1,1,0.0);
+    font-size: 15px;
+    height: 30px;
+    cursor: pointer;
+}
+.start-button:hover{
+    background-color: rgba(255, 225, 2,0.8);
+}
+.about-wrapper{
+    height: 80%;
+    padding-top: 5%;
+    text-align: center;
+    opacity: 0;
+    display: none;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    background-color: #E0C816;
+}
+.about-content{
+    background-color: rgba(255,255,255,0.9);
+    width: 70%;
+    height: 60%;
+    margin: auto;
+}
